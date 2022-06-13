@@ -2,3 +2,7 @@
 
 ## ALGORITMO DO EXERCICIO
 ![image](https://user-images.githubusercontent.com/104045633/173465553-4f0978a9-07d6-4e1e-910e-7d2cc71e147b.png)
+
+### FLUXOGRAMA
+![fluxograma](https://user-images.githubusercontent.com/104045633/173465631-57c932ee-f53e-4a65-a7f8-e85cc34bad51.png)
+
