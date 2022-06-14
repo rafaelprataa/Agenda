@@ -9,7 +9,7 @@ public class Agenda {
 
 	        do { // inicio do ciclo DO WHILE
 	            System.out.printf("Insira seu nome: "); // usuario digita os dados e assim respectivamente
-	            Agenda [n][0] = entrada.nextLine(); // posição 0 da matriz guarda o nome e assim respectivamente
+	            Agenda [n][0] = entrada.nextLine(); // posiÃ§Ã£o 0 da matriz guarda o nome e assim respectivamente
 
 	            System.out.printf("Insira seu endereco: ");
 	            Agenda [n][1] = entrada.nextLine();
@@ -25,11 +25,11 @@ public class Agenda {
 
 	            n++; 
 	            
-	        } while (n < 2); // N<10 para se repetir no total de 10 vezes
+	        } while (n < 10); // N<10 para se repetir no total de 10 vezes
 	        
 	        
-	        for (int x = 0; x < Agenda.length; x++) { //laço de repetição
-	        	 for (int y = 0; y < Agenda[x].length; y++) { // outro laço de repetição para conseguir andar sobre a matriz
+	        for (int x = 0; x < Agenda.length; x++) { //laÃ§o de repetiÃ§Ã£o
+	        	 for (int y = 0; y < Agenda[x].length; y++) { // outro laÃ§o de repetiÃ§Ã£o para conseguir andar sobre a matriz
 	        		
 	        		  System.out.print("\t\t"+ Agenda[x][y]); // exibe a matriz confome o tamanho dela, organizado por linha e coluna
 	        	 }
