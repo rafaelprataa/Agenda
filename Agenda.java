@@ -22,6 +22,7 @@ public class Agenda {
 	            
 	            System.out.printf("Insira seu telefone: ");
 	            Agenda [n][4] = entrada.nextLine();
+	            entrada.close();
 
 	            n++; 
 	            
